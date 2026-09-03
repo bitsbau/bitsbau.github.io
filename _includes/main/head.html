@@ -53,3 +53,9 @@
 {% if site.blog.inline_footnotes == true %}
 <link rel="stylesheet" href="{{ "assets/css/bf.css" | relative_url }}">
 {% endif %}
+
+{% if page.use_p5 %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  {% endif %}
+
+  
